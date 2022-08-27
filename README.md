@@ -13,12 +13,12 @@ Install this module using [the official Backdrop CMS instructions](https://backd
 Use this handler to render taxonomy terms in your Views showing links to child
 terms. For example, you can create a View that lists Ubercart catalog terms at a
 given level, and then add a Child links field to each entry to display links to
-the child terms.
+the child term pages.
 
 Issues
 ------
 
-Bugs and feature requests should be reported in [the Issue Queue](https://github.com/backdrop-contrib/taxonomy_child_links/issues).
+Bugs and feature requests should be reported in [the issue queue](https://github.com/backdrop-contrib/taxonomy_child_links/issues).
 
 Current Maintainers
 -------------------
