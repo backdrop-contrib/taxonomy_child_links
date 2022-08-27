@@ -1,0 +1,7 @@
+name = Taxonomy Child Links
+description = Adds a Views field handler to display taxonomy term child links in a View.
+package = Categorization
+dependencies[] = taxonomy
+backdrop = 1.x
+type = module
+

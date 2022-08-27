@@ -1,0 +1,24 @@
+<?php
+/**
+ * @file
+ * Taxonomy Child Links module.
+ */
+
+/**
+ * Implements hook_views_api().
+ */
+function taxonomy_child_links_views_api() {
+  return array(
+    'api' => 3,
+    'path' => backdrop_get_path('module', 'taxonomy_child_links') . '/views',
+  );
+}
+
+/**
+ * Implements hook_autoload_info().
+ */
+function taxonomy_child_links_autoload_info() {
+  return array(
+    'views_handler_field_taxonomy_child_links' => 'views/views_handler_field_taxonomy_child_links.inc',
+  );
+}
